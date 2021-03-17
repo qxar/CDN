@@ -168,7 +168,7 @@ function creatShopBoardItem(data,style) {
     var itemWrap=document.createElement("div");
     Object.assign(itemWrap.style,style.itemWrap);
     var shopImg=new Image();
-    shopImg.src="assets/images/index/"+data.icon;
+    shopImg.src="https://cdn.jsdelivr.net/gh/qxar/CDN/mia/assets/images/index/"+data.icon;
     Object.assign(shopImg.style,style.shopImage);
     itemWrap.appendChild(shopImg);
     var posiBox=document.createElement("div");
@@ -221,7 +221,7 @@ function creatShopBoard(obj) {
     var logo=document.createElement("div");
     Object.assign(logo.style,dpjhStyle.logo);
     var logoImg=new Image();
-    logoImg.src="assets/images/index/"+dpjhData[i].headImg;
+    logoImg.src="https://cdn.jsdelivr.net/gh/qxar/CDN/mia/assets/images/index/"+dpjhData[i].headImg;
     Object.assign(logoImg.style,dpjhStyle.logoImg);
     var h3=document.createElement("h3");
     h3.textContent=dpjhData[i].shopName;
@@ -280,7 +280,7 @@ function creatShopItem(obj) {
     divWrap.className="clearfix";
     Object.assign(divWrap.style,wntjStyle.divWrap);
     var img=new Image();
-    img.src="assets/images/index/"+obj.icon;
+    img.src="https://cdn.jsdelivr.net/gh/qxar/CDN/mia/assets/images/index/"+obj.icon;
     Object.assign(img.style,wntjStyle.img);
     divWrap.appendChild(img);
 
