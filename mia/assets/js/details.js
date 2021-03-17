@@ -40,7 +40,7 @@ console.log($ids);
 /*$("#secondClass").text($data[$ids].classify).attr("href","#");
 $("#thirdClass").text($data[$ids].brand);
 $("#fourthClass").text($data[$ids].tradeName);
-$("#bigImg").attr("src","../assets/images/details/"+$ids+"/"+$data[$ids].showImg[0]);
+$("#bigImg").attr("src","https://cdn.jsdelivr.net/gh/qxar/CDN/mia/assets/images/details/"+$ids+"/"+$data[$ids].showImg[0]);
 $("#tradeName").text($data[$ids].tradeName);
 $(".brand").text($data[$ids].brand).attr("href","#");
 $("#desc").text($data[$ids].desc);
@@ -97,7 +97,7 @@ $style={
         {
             width:"0.16rem",
             height:"0.16rem",
-            background:"url('../assets/images/smallIco.png') no-repeat -50px -100px",
+            background:"url('https://cdn.jsdelivr.net/gh/qxar/CDN/mia/assets/images/smallIco.png') no-repeat -50px -100px",
             position:"absolute",
             bottom:0,
             right:0,
@@ -108,12 +108,12 @@ $style={
     return parent.append($(type).css(style))
 }*/
 //JQ加载Josn
-$.getJSON("../assets/js/data.json",function (data) {
+$.getJSON("https://cdn.jsdelivr.net/gh/qxar/CDN/mia/assets/js/data.json",function (data) {
     $s=data[$ids];
     $("#secondClass").text($s.classify).attr("href","#");
     $("#thirdClass").text($s.brand);
     $("#fourthClass").text($s.tradeName);
-    $("#bigImg").attr("src","../assets/images/details/"+$ids+"/"+$s.showImg[0]);
+    $("#bigImg").attr("src","https://cdn.jsdelivr.net/gh/qxar/CDN/mia/assets/images/details/"+$ids+"/"+$s.showImg[0]);
     $("#tradeName").text($s.tradeName);
     $(".brand").text($s.brand).attr("href","#");
     $("#desc").text($s.desc);
@@ -121,14 +121,14 @@ $.getJSON("../assets/js/data.json",function (data) {
     for(i=0;i<$s.showImg.length;i++){
         /*$div=creatElem("<div></div>",$style.small,$(".small"));
         $smallImg=new Image();
-        $smallImg.attr("src","../assets/images/details/"+$ids+"/"+$s.showImg[i]);
+        $smallImg.attr("src","https://cdn.jsdelivr.net/gh/qxar/CDN/mia/assets/images/details/"+$ids+"/"+$s.showImg[i]);
         $("<div></div>").append($smallImg)
         console.log($div)*/
         $div=$("<div></div>").css($style.smallBox);
         $div.attr("num",i);
         if(i===$s.showImg.length-1)$div.css({marginRight:0});
         $smallImg=new Image();
-        $smallImg.setAttribute("src","../assets/images/details/"+$ids+"/"+$s.showImg[i]);
+        $smallImg.setAttribute("src","https://cdn.jsdelivr.net/gh/qxar/CDN/mia/assets/images/details/"+$ids+"/"+$s.showImg[i]);
         $smallImg.style="width:100%";
         $div.on("mouseenter",mouseHandler).on("mouseleave",mouseHandler);
         $div.append($smallImg);
@@ -148,7 +148,7 @@ $.getJSON("../assets/js/data.json",function (data) {
         $colorBox.attr({"num":i,name:"color"});
         if(i===$s.color.length-1)$colorBox.css({marginRight:0});
         $colorImg=new Image();
-        $colorImg.setAttribute("src","../assets/images/details/"+$ids+"/"+$s.color[i]);
+        $colorImg.setAttribute("src","https://cdn.jsdelivr.net/gh/qxar/CDN/mia/assets/images/details/"+$ids+"/"+$s.color[i]);
         $colorImg.style="width:100%";
         $colorBox.on("mouseenter",mouseHandler1).on("mouseleave",mouseHandler1);
         $colorBox.append($colorImg);
@@ -213,7 +213,7 @@ $.getJSON("../assets/js/data.json",function (data) {
 function mouseHandler(e) {
     if(e.type==="mouseenter"){
         Object.assign(this.style,{border:"1px solid #f450a2"});
-        // $("#bigImg").attr("src","../assets/images/details/"+$ids+"/"+$s.showImg[this.getAttribute("num")]);//使用不同组的图片
+        // $("#bigImg").attr("src","https://cdn.jsdelivr.net/gh/qxar/CDN/mia/assets/images/details/"+$ids+"/"+$s.showImg[this.getAttribute("num")]);//使用不同组的图片
         $("#bigImg").attr("src",this.firstElementChild.src);//使用同一组图片
     }else if(e.type==="mouseleave"){
         Object.assign(this.style,{border:"1px solid #f4f4f4"});
@@ -245,11 +245,11 @@ var numChange=document.getElementById("numChange");
 numMinus.addEventListener("click",function () {
     if(Number(numChange.textContent)<=2) {
         numChange.textContent = 1;
-        numMinus.style.background = "url('../assets/images/smallIco.png') no-repeat 0 -150px";
+        numMinus.style.background = "url('https://cdn.jsdelivr.net/gh/qxar/CDN/mia/assets/images/smallIco.png') no-repeat 0 -150px";
     }else {
         numChange.textContent = Number(numChange.textContent) - 1;
 
-        numAdd.style.background = "url('../assets/images/smallIco.png') no-repeat -50px -150px";
+        numAdd.style.background = "url('https://cdn.jsdelivr.net/gh/qxar/CDN/mia/assets/images/smallIco.png') no-repeat -50px -150px";
     }
 });
 
@@ -257,10 +257,10 @@ numAdd.addEventListener("click",function () {
 
     if(Number(numChange.textContent)>=98) {
         numChange.textContent = 99;
-        numAdd.style.background = "url('../assets/images/smallIco.png') no-repeat -150px -150px";
+        numAdd.style.background = "url('https://cdn.jsdelivr.net/gh/qxar/CDN/mia/assets/images/smallIco.png') no-repeat -150px -150px";
     }else {
         numChange.textContent=Number(numChange.textContent)+1;
-        numMinus.style.background ="url('../assets/images/smallIco.png') no-repeat -100px -150px";
+        numMinus.style.background ="url('https://cdn.jsdelivr.net/gh/qxar/CDN/mia/assets/images/smallIco.png') no-repeat -100px -150px";
     }
 
 
