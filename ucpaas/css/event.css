@@ -1,0 +1,75 @@
+/* 导航样式 */
+#topNav a:nth-of-type(2){
+    color: #ffcc01;
+    border-bottom: 4px solid #ffcc01;
+}
+/* banner样式 */
+.banner img{
+    width: 100%;
+}
+/* 内容区 */
+.content .events{
+    /* background: red; */
+    padding-bottom: 130px;
+}
+.content .event{
+    width: 30%;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    float: left;
+    margin: 40px 1.66% 0;
+    box-sizing: border-box;
+    padding: 10px;
+    position: relative;
+    height: 470px;
+    transition: box-shadow 0.5s, transform 0.5s;
+}
+.content .event:hover{
+    -moz-box-shadow: 10px 10px 20px #ccc;
+    -webkit-box-shadow: 10px 10px 20px #ccc;
+    box-shadow: 10px 10px 20px #ccc;
+}
+.content .event img{
+    border-radius: 5px 5px 0 0;
+}
+.content .event .event-time{
+    background: url(../images/clock.png) 10px center no-repeat rgb(238, 238, 238);
+    background-size: 16px 16px;
+    border-radius: 0 0 5px 5px;
+    padding: 6px 30px;
+    color: #000;
+    font-size: 13px;
+}
+.content .event h4{
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 10px 10px 10px 0;
+}
+.content .event p{
+    font-size: 13px;
+    text-align: left;
+    color: #999;
+    line-height: 24px;
+    padding-bottom: 100px;
+}
+.content .event .more{
+    width: 40%;
+    margin: 20px auto;
+    padding: 5px 15px;
+    text-align: center;
+    border: 1px solid #409cf2;
+    background-color: #409cf2;
+    border-radius: 300px;
+    position: absolute;
+    left: 25%;
+    bottom: 15px;
+    overflow: hidden;
+}
+.content .event a{
+    color: #fff;
+    font-size: 16px;
+    margin: -5px -25px;
+    padding: 5px 0;
+    display: block;
+}

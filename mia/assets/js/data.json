@@ -1,0 +1,54 @@
+{
+  "id2571489":
+  {
+    "shopName":"依尔婴童装旗舰店",
+    "classify":"连身衣/爬服/哈衣",
+    "brand":"依尔婴 yierying",
+    "place":"中国",
+    "tradeName":"婴儿连体衣服纯棉春秋季男宝宝绅士满月0-3-6个月1周岁新生儿礼服",
+    "desc":"时尚翻领搭配酷酷的领结彰显绅士气质",
+    "onsale":"99元选3件",
+    "showImg":["6.png","7.png","8.png","9.png","5.png"],
+    "newPrice":39,
+    "oldPrice":79,
+    "color":["6.png","7.png"],
+    "size":["66cm","80cm","90cm","73cm","59cm"],
+    "scroe":5,
+    "Referrals":601,
+    "baoyou":false,
+    "detailsImg":[],
+    "detailsList":{
+      "商品名称:":"婴儿连体衣服纯棉春秋季男宝宝绅士满月0-3-6个月1周岁新生儿礼服",
+      "品牌:":"依尔婴 yierying",
+      "分类:":"",
+      "安全等级:":"A类",
+      "参考身高:":"85cm,90cm,48cm,52cm,59cm,66cm,73cm"
+    }
+  },
+  "id2778099":
+  {
+    "shopName":"依尔婴童装旗舰店",
+    "classify":"连身衣/爬服/哈衣",
+    "brand":"依尔婴 yierying",
+    "place":"中国",
+    "tradeName":"婴儿连体衣服春秋季纯棉新生儿0-3-6个月宝宝连体哈衣爬服",
+    "desc":"优选舒适柔软的材质,质地柔软，手感爽滑，亲肤舒适",
+    "onsale":"99元选3件",
+    "showImg":["6.png","7.png","8.png","9.png","5.png"],
+    "newPrice":39,
+    "oldPrice":79,
+    "color":["13.png","14.png","15.png","16.png","17.png","18.png","19.png","20.png","21.png","22.png","23.png","24.png","25.png","26.png","27.png","28.png","29.png","30.png","31.png","32.png","33.png","34.png","35.png","37.png","38.png","39.png","40.png"],
+    "size":["66cm","80cm","90cm","73cm","59cm"],
+    "scroe":5,
+    "Referrals":1303,
+    "baoyou":false,
+    "detailsImg":[],
+    "detailsList":{
+      "商品名称:":"婴儿连体衣服春秋季纯棉新生儿0-3-6个月宝宝连体哈衣爬服",
+      "品牌:":"依尔婴 yierying",
+      "分类:":"",
+      "安全等级:":"A类",
+      "参考身高:":"90cm,48cm,52cm,59cm,66cm,73cm,新生儿"
+    }
+  }
+}

@@ -1,0 +1,209 @@
+.font12{
+    font-size: 0.12rem
+}
+.mainColor{
+    color: #666
+}
+.wrap{
+    background-color: #fff;
+}
+.content a{
+    color: #666
+}
+.content a:hover{
+    color: #f95fa0;
+}
+
+
+/*分类树******************************************/
+.classTree{
+    line-height: 0.5rem;
+    font-size: 0.12rem;
+}
+/*.classTree a{
+    color: #666
+}
+.classTree a:hover{
+    color: #f95fa0;
+}*/
+.classTree #fourthClass,.classTree #thirdClass{
+    font-size: 0.122rem;
+}
+
+/*商品show****************************************/
+.show{
+    /*background-color: red;*/
+    padding:0.2rem;
+    width: 10.6rem;
+}
+/*左边商品图片展示区*/
+.showLeft{
+    float: left;
+}
+.showLeft .big{
+    width: 4rem;
+    height: 4rem;
+    border: 1px solid #f7f7f7;
+    margin-bottom: 0.08rem;
+
+}
+.showLeft .big #bigImg{
+    width: 100%;
+}
+.showLeft .small{
+
+}
+/*a{background: url("")}*/
+
+/*右边商品信息区*/
+.showRight{
+    float: left;
+    margin-left:0.5rem;
+    width: 6rem;
+}
+.showRight .title{
+    width: 5.5rem;
+    padding: 0.1rem 0.5rem 0.1rem 0;
+    position: relative;
+    font-size: 0.18rem;
+}
+.showRight .title #baoyou{
+    font-size: 0.18rem;
+    color: #f53499;
+}
+.showRight .title .share{
+    display: block;
+    width: 0.2rem;
+    height:0.2rem;
+    position: absolute;
+    top: .1rem;
+}
+.showRight .title .icoWechat{
+    right: 0.24rem;
+    background: url("../images/shareico.png") no-repeat -180px 0 ;
+}
+.showRight .title .icoSina{
+    right: 0;
+    background: url("../images/shareico.png") no-repeat 0 0;
+}
+.showRight #desc{
+    font-size: 0.13rem
+}
+.price{
+    background-color: #fff9fd;
+    padding: 0.16rem 0.16rem 0.16rem 0;
+}
+.showRight .tit_txt{
+    font-size: 0.16rem;
+    margin: 0 0.2rem 0 0.15rem;
+    color: #666;
+    float:left;
+}
+.showRight .price .new{
+    font-size: 0.2rem;
+    color: #f53499;
+    line-height: 0.2rem;
+}
+.showRight .price .symbol1{
+    font-size: 0.09rem;
+}
+.showRight .price #oldPrice{
+    font-size: 0.12rem;
+    text-decoration: line-through;
+}
+.showRight .price #youhui{
+    margin-top: 0.14rem;
+    display: none;
+}
+.showRight .price #quan{
+    display: inline-block;
+    color: #fff;
+    padding: 0.02rem 0.05rem;
+    font-size: 0.11rem;
+    background-color: #4ecf85;
+    margin-right: 0.08rem;
+}
+.showRight .price #quanTxt{
+    color: #f53499;
+}
+.showRight .choose{
+    margin-top: 0.12rem;
+
+}
+.showRight .priceAttr .color{
+  float: left;
+}
+.showRight #color{
+    width: 3.2rem;
+}
+.showRight .size{
+    margin-top: 0.12rem;
+    display: none;
+}
+.showRight .num{
+    margin-top: 0.12rem;
+}
+.showRight .numCount{
+    width: 0.76rem;
+    height: 0.27rem;
+    border: 1px solid #b3b3b3;
+    float: left;
+}
+.showRight .numCount .change{
+    width: 0.24rem;
+    height: 0.27rem;
+    float: left;
+}
+.showRight .numCount #numChange{
+    width: 0.28rem;
+    height: 0.27rem;
+    float: left;
+    text-align: center;
+    line-height: 0.27rem;
+}
+.showRight .numCount #numMinus{
+    background: url("../images/smallIco.png") no-repeat 0 -150px;
+}
+.showRight .numCount #numAdd{
+    background: url("../images/smallIco.png") no-repeat -50px -150px;
+}
+.showRight .scroe{
+    margin-top: 0.12rem;
+}
+.showRight .addCart{
+    margin-top: 0.12rem;
+}
+
+
+
+
+
+
+
+
+
+
+.showRight .addCart .aCart{
+    width: 2.25rem;
+    height: 0.55rem;
+    background-color: #f450a2;
+    float: left;
+    text-align: center;
+    line-height: 0.55rem;
+    color: #fff;
+    font-size: 0.17rem;
+    border-radius: 3px;
+    margin-right: 0.12rem;
+}
+.showRight .addCart .collect{
+    width: 1rem;
+    height: 0.55rem;
+    border: 1px solid #e2e2e2;
+    border-radius: 3px;
+    float: left;
+    line-height: 0.78rem;
+    text-align: center;
+    font-size: 0.13rem;
+    color: #666;
+    background: url("../images/collect.png") no-repeat center 0.12rem;
+}

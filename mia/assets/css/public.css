@@ -1,0 +1,709 @@
+/*重置样式*/
+html,
+body,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+img,
+input,
+figure,
+figcaption {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+a,
+u,
+s {
+    text-decoration: none;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+b,
+strong {
+    font-weight: normal;
+}
+
+i,
+em {
+    font-style: normal;
+}
+
+img {
+    border: 0;
+    display: block;
+}
+
+input {
+    outline: none;
+}
+
+
+body {
+    background-color: #f9f9f9
+}
+
+/*公共*/
+.fontW {
+    font-weight: 900
+}
+
+.font12 {
+    font-size: 0.12rem
+}
+
+.textC {
+    text-align: center
+}
+
+.borderBox {
+    box-sizing: border-box
+}
+
+.minfont {
+    font-size: 0;
+    -webkit-text-size-adjust: none;
+}
+
+.clearfix:after {
+    content: ".";
+    /*生成内容作为最后一个元素，至于content里面是什么没有影响*/
+    display: block;
+    /*使得生成的元素以块级元素显示，占满剩余空间*/
+    height: 0;
+    /*避免生成的内容破坏原有空间的高度*/
+    clear: both;
+    /*闭合浮动*/
+    visibility: hidden;
+    /*使得生成内容不可见，并允许可能生成内容盖住的内容进行点击和交互*/
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+/*触发IE6/7的haslayout*/
+.head,
+.logo,
+.service,
+.contact,
+.mainNav,
+.w1100 {
+    width: 11rem;
+    margin: 0 auto
+}
+
+/*头部*/
+#head_wrap {
+    height: 0.23rem;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #e5e5e5;
+    padding-top: 0.06rem
+}
+
+.head_left {
+    float: left;
+}
+
+.head_right {
+    float: right
+}
+
+.head a {
+    font-size: 0.11rem;
+    color: #666666;
+    display: inline-block;
+}
+
+.head_left a {
+    margin-right: 0.3rem;
+    height: 0.14rem;
+    line-height: 0.14rem
+}
+
+.head_left a:nth-of-type(1) {
+    background: url("../images/phone.jpg") no-repeat left center;
+    padding-left: 0.14rem
+}
+
+.head_right a {
+    margin: 0 0.1rem
+}
+
+.head_hover:hover {
+    color: #f95fa0
+}
+
+/*logo*/
+#logo_wrap {
+    height: 1.33rem;
+    background-color: #fff
+}
+
+#logo_l {
+    padding-top: 0.3rem;
+    float: left
+}
+
+#logo_l a {
+    display: block
+}
+
+#logo_r {
+    float: right;
+    padding-top: 0.48rem;
+}
+
+.searchBox {
+    float: left;
+    margin-right: 0.48rem
+}
+
+.searchBox input {
+    display: block;
+    float: left
+}
+
+.searchBox input:nth-of-type(1) {
+    width: 3.73rem;
+    height: 0.3rem;
+    border: 2px solid #fa4a98;
+    border-right: 0;
+    padding-left: 0.1rem
+}
+
+.searchBox input:nth-of-type(2) {
+    width: 0.9rem;
+    height: 0.34rem;
+    background-color: #fa4a98;
+    border: 0;
+    color: #ffffff;
+    font-weight: 900
+}
+
+#cart {
+    float: left
+}
+
+.cart-ico {
+    width: 0.36rem;
+    height: 0.34rem;
+    float: left
+}
+
+.cart-ico img {
+    width: 100%
+}
+
+.cartNum {
+    float: left;
+    width: 1.07rem;
+    height: 0.32rem;
+    border: 1px solid #e5e5e5;
+    text-align: center;
+    line-height: 0.32rem;
+    font-size: 0.14rem;
+    margin-right: 0.31rem;
+    border-left: 0
+}
+
+.cartNum span {
+    display: inline-block;
+    padding: 0 0.07rem;
+    border-radius: 0.08rem;
+    background-color: #ff3893;
+    color: #ffffff;
+    line-height: normal;
+    vertical-align: middle;
+    font-size: 0.12rem
+}
+
+/*主导航*/
+.mainNavWrap {
+    height: 0.46rem;
+    background-color: #ff3893;
+}
+
+.mainNav li {
+    float: left;
+    line-height: 0.46rem;
+    text-align: center;
+    padding: 0 0.3rem;
+    background-color: #ff3893;
+    font-size: 0.16rem
+}
+
+.mainNav a {
+    color: #fff
+}
+
+.mainNavWrap #mainNavZw {
+    width: 2.3rem;
+    position: relative;
+    padding: 0
+}
+
+.mainNav li:hover {
+    background-color: #ec0971
+}
+
+.mainNav a:nth-of-type(1) li {}
+
+#zpbz {
+    position: relative
+}
+
+.mainNav #zpbz:hover i {
+    transform: rotate(-180deg)
+}
+
+.mainNav #zpbz:hover .zpbzList {
+    display: block
+}
+
+.mainNav .zpbzList {
+    position: absolute;
+    left: 0rem;
+    top: 0.46rem;
+    width: 100%;
+    display: none;
+    z-index: 2
+}
+
+.mainNav .zpbzList a {
+    display: block;
+    border-bottom: 1px dashed #f2f2f2;
+    background-color: #fff;
+    color: #000;
+    line-height: 0.4rem
+}
+
+.mainNav .zpbzList a:nth-of-type(1) {
+    border-bottom: 0
+}
+
+.mainNav .zpbzList a:last-child {
+    border-bottom: 0
+}
+
+.mainNav .zpbzList a:hover {
+    background-color: #ff3893;
+    color: #fff
+}
+
+.mainNav #zpbz .i-v-bottom {
+    font-size: 0.1rem;
+    position: absolute;
+    top: 0.18rem;
+    right: 0.15rem;
+    transition: all 0.3s;
+}
+
+/*mainNavDown*/
+.mainNavWrap .mainNavDown {
+    position: absolute;
+    left: 0;
+    top: -0.03rem;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: left;
+    background-color: #e6e6e6;
+    z-index: 1
+}
+
+.mainNavWrap .mainNavDown h2 {
+    position: relative;
+    font-weight: 900;
+    background-color: #f92c87;
+    height: 0.52rem;
+    font-size: 0.16rem;
+    color: #fff;
+    padding-left: 0.22rem
+}
+
+.mainNavWrap .mainNavDown h3 {
+    font-size: 0.13rem;
+    color: #fb60a7;
+    font-weight: 900
+}
+
+.mainNavWrap #navDowmHover div {
+    padding: 0.05rem 0 0.08rem 0;
+    line-height: normal;
+    position: relative;
+    height: 0.727rem;
+    box-sizing: border-box;
+    border-bottom: 1px dashed #d1d1d1
+}
+
+.mainNavWrap .mainNavDown .i-v-right {
+    color: #d6d7da;
+    position: absolute;
+    right: 0.13rem;
+    top: 0.28rem;
+}
+
+.mainNavWrap h2 .i-v-bottom {
+    font-size: 0.2rem;
+    right: 0.2rem;
+    top: 0.15rem;
+    position: absolute;
+    transition: 0.2s
+}
+
+.mainNavWrap .mainNavDown:hover .i-v-bottom {
+    transform: rotate(-180deg)
+}
+
+.mainNavWrap #navDowmHover {
+    background-color: #fff;
+    padding: 0 0.1rem 0 0.22rem;
+    display: none
+}
+
+.mainNavWrap .mainNavDown:hover #navDowmHover {
+    display: block
+}
+
+/*FOOT*/
+/*service*/
+#foot_wrap {
+    background-color: #fff;
+    height: 5.39rem;
+    border-top: 1px solid #f2f2f0;
+    text-align: center;
+    font-size: 0.11rem;
+    color: #a5a5c2
+}
+
+.service-box {
+    display: inline-block
+}
+
+#foot_wrap h4 {
+    font-size: 0.13rem;
+    font-weight: 900;
+    color: #333333;
+    margin: 7px 0 2px
+}
+
+#foot_wrap h5 {
+    font-size: 0.12rem;
+    font-weight: 900;
+    color: #333333
+}
+
+.service {
+    height: 1.15rem;
+    border-bottom: 1px solid #f2f2f0;
+    padding-top: 0.23rem
+}
+
+.service a {
+    display: block;
+    width: 1.66rem;
+    color: #a5a5c2;
+    float: left
+}
+
+.service-ico {
+    width: 0.54rem;
+    height: 0.54rem;
+    background-image: url("../images/service.png");
+    margin: 0 auto;
+}
+
+.service-box a:nth-of-type(1) div {
+    background-position: -3px -3px;
+}
+
+.service-box a:nth-of-type(3) div {
+    background-position: -123px -3px;
+}
+
+.service-box a:nth-of-type(4) div {
+    background-position: -183px -3px;
+}
+
+.service-box a:nth-of-type(5) div {
+    background-position: -243px -3px;
+}
+
+.service-box a:nth-of-type(2) div {
+    background-position: -63px -3px;
+}
+
+.service-box a:nth-of-type(6) div {
+    background-position: -303px -3px;
+}
+
+/*contact*/
+.contact {
+    text-align: left;
+    padding-top: 0.25rem
+}
+
+.contact .w132 {
+    width: 1.32rem;
+}
+
+.contact h5 {
+    margin-bottom: 0.07rem
+}
+
+.contact .w132 a {
+    color: #666666;
+    display: block;
+    line-height: 0.11rem;
+    padding: 0.07rem 0
+}
+
+.contact .w132 a:hover {
+    color: #fa4b9b
+}
+
+.contact .sybz {
+    float: left;
+    margin-left: 0.97rem
+}
+
+.contact .zffs,
+.contact .psfs,
+.contact .shfw {
+    float: left;
+}
+
+.contact .lxfs {
+    float: left;
+    color: #333333;
+    width: 1.98rem;
+}
+
+.contact p {
+    line-height: 0.11rem;
+    padding: 0.07rem 0
+}
+
+.contact .gzmy {
+    float: left;
+    padding-left: 0.18rem;
+    padding-bottom: 0.16rem;
+    border-left: 1px solid #f2f2f0;
+}
+
+.contact .sjmy,
+.contact .wbwx {
+    float: left;
+    margin-right: 0.07rem
+}
+
+.contact .mywx {
+    position: relative
+}
+
+.contact .mywx .hover-wx {
+    position: absolute;
+    right: 0.67rem;
+    bottom: 0;
+    display: none;
+}
+
+.contact .mywx:hover .hover-wx {
+    display: block;
+}
+
+#foot_wrap hr {
+    border: none;
+    background-color: #f2f2f0;
+    height: 1px;
+    margin: 0;
+    margin-bottom: 0.21rem
+}
+
+/*foot-info*/
+.foot-info .info-text a {
+    color: #666666;
+    display: inline-block;
+    margin: 0 0.14rem
+}
+
+.foot-info .info-text a:hover {
+    color: #fa4b9b
+}
+
+.foot-info .info-text p {
+    line-height: 0.22rem;
+    color: #979797;
+}
+
+.foot-info .foot-info-p1 {
+    margin-top: 0.1rem
+}
+
+.foot-info .info-ico {
+    margin: 0.1rem 0;
+}
+
+.foot-info .info-ico img {
+    display: inline-block;
+    margin: 0 0.12rem;
+    vertical-align: middle
+}
+
+.foot-info .info-ico a:nth-of-type(1) img {
+    width: 0.36rem
+}
+
+.foot-info .info-ico a:nth-of-type(2) img {
+    width: 0.8rem;
+    margin-right: 0
+}
+
+.foot-info .info-ico a:nth-of-type(3) img {
+    width: 1.05rem;
+}
+
+.foot-info .info-ico a {
+    display: inline-block
+}
+
+/*fixed*/
+#fixed-left {
+    position: fixed;
+    left: 40px;
+    bottom: 100px;
+    display: none
+}
+
+#fixed-right {
+    display: none;
+    width: 0.52rem;
+    position: fixed;
+    right: 100px;
+    bottom: 20px;
+}
+
+#fixed-right .gouwuche {
+    width: 0.52rem;
+    height: 0.55rem;
+    border: 1px solid #e6e6e6;
+    border-radius: 4px 4px 0 0
+}
+
+#fixed-right .zixun {
+    width: 0.52rem;
+    height: 0.55rem;
+    border: 1px solid #e6e6e6;
+    border-top: 0
+}
+
+#fixed-right .weixin {
+    cursor: pointer;
+    position: relative;
+    width: 0.52rem;
+    height: 0.55rem;
+    border-left: 1px solid #e6e6e6;
+    border-right: 1px solid #e6e6e6
+}
+
+#fixed-right .r-bottom {
+    cursor: pointer;
+    display: block;
+    width: 0.54rem;
+    height: 0.28rem;
+    background-color: #fa4b9b;
+    border-radius: 0 0 4px 4px
+}
+
+#fixed-right .triangle {
+    margin: 0 auto;
+    width: 0;
+    border-bottom: 0.09rem solid #ffffff;
+    border-right: 0.06rem solid transparent;
+    border-top: 0.09rem solid transparent;
+    border-left: 0.06rem solid transparent
+}
+
+#fixed-right .ad {
+    display: block;
+    margin: 0 auto;
+    margin-top: 0.68rem;
+    width: 0.4rem;
+    height: 0.22rem;
+    background-color: #e0e0e0;
+    text-align: center;
+    line-height: 0.22rem;
+    border-radius: 3px;
+    color: #ffffff;
+}
+
+#fixed-right i {
+    font-size: 0.2rem !important;
+    color: #fa4b9b;
+    display: inline-block;
+    margin-top: 0.1rem
+}
+
+#fixed-right .r-top a {
+    color: #000
+}
+
+#fixed-right .r-top em {
+    font-size: 0.12rem
+}
+
+#fixed-right .r-top {
+    text-align: center;
+    background-color: #fff
+}
+
+#fixed-right .gouwuche:hover em {
+    color: #f95fa0
+}
+
+#fixed-right .zixun:hover em {
+    color: #f95fa0
+}
+
+#fixed-right .weixin:hover em {
+    color: #f95fa0
+}
+
+#fixed-right .weixin img {
+    position: absolute;
+    top: -1.33rem;
+    left: -1.55rem;
+    display: none
+}
+
+#fixed-right .weixin:hover img {
+    display: block
+}

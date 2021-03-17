@@ -1,0 +1,588 @@
+{
+  "err": "0",
+  "msg": "ok",
+  "data": {
+    "bannerlist": [{
+        "name": "banner3",
+        "imgPath": "/img/banner-3a.png",
+        "productid": "p17",
+        "url": ""
+      },
+      {
+        "name": "banner1",
+        "imgPath": "/img/banner-1a.png",
+        "productid": "p5",
+        "url": ""
+      },
+      {
+        "name": "banner2",
+        "imgPath": "/img/banner-2a.png",
+        "productid": "p8",
+        "url": ""
+      }
+
+    ],
+    "themelist": [{
+        "title": "美味水果世界",
+        "imgPath": "/img/1@theme.png",
+        "themeid": "t1"
+      },
+      {
+        "title": "新品首发",
+        "imgPath": "/img/2@theme.png",
+        "themeid": "t2"
+      },
+      {
+        "title": "做个干物女",
+        "imgPath": "/img/3@theme.png",
+        "themeid": "t3"
+      }
+    ],
+    "themeid": {
+      "t4": [{
+          "title": "梨花带雨 3个",
+          "price": "￥0.01",
+          "imgPath": "/img/product-dryfruit@1.png",
+          "productid": "p1"
+        },
+        {
+          "title": "猴头菇 300克",
+          "price": "￥0.01",
+          "imgPath": "/img/product-rice@4.png",
+          "productid": "p11"
+        },
+        {
+          "title": "八宝莲子 200克",
+          "price": "￥0.01",
+          "imgPath": "/img/product-rice@6.png",
+          "productid": "p15"
+        },
+        {
+          "title": "深涧木耳 80克",
+          "price": "￥0.01",
+          "imgPath": "/img/product-rice@7.png",
+          "productid": "p16"
+        },
+        {
+          "title": "芹菜 半斤",
+          "price": "￥0.01",
+          "imgPath": "/img/product-vg@1.png",
+          "productid": "p6"
+        },
+        {
+          "title": "奇珍异果 3个",
+          "price": "￥0.01",
+          "imgPath": "/img/product-dryfruit@7.png",
+          "productid": "p4"
+        },
+        {
+          "title": "锈色瓜子 120克",
+          "price": "￥0.01",
+          "imgPath": "/img/product-fry@4.png",
+          "productid": "p14"
+        },
+        {
+          "title": "妙脆角 250克",
+          "price": "￥0.01",
+          "imgPath": "/img/product-cake@1.png",
+          "productid": "p8"
+        },
+        {
+          "title": "泥蒿 半斤",
+          "price": "￥0.01",
+          "imgPath": "/img/product-vg@2.png",
+          "productid": "p9"
+        },
+        {
+          "title": "春泥西瓜籽 120克",
+          "price": "￥0.01",
+          "imgPath": "/img/product-fry@2.png",
+          "productid": "p10"
+        }
+      ],
+      "t1": [{
+          "title": "贵妃杨梅 300克",
+          "price": "￥0.01",
+          "imgPath": "/img/product-dryfruit-a@6.png",
+          "productid": "p17"
+        },
+        {
+          "title": "梨花带雨 3个",
+          "price": "￥0.01",
+          "imgPath": "/img/product-dryfruit@1.png",
+          "productid": "p1"
+        },
+        {
+          "title": "春生龙眼 500克",
+          "price": "￥0.01",
+          "imgPath": "/img/product-dryfruit@2.png",
+          "productid": "p2"
+        },
+        {
+          "title": "夏日芒果 3个",
+          "price": "￥0.01",
+          "imgPath": "/img/product-dryfruit@3.png",
+          "productid": "p3"
+        },
+        {
+          "title": "奇珍异果 3个",
+          "price": "￥0.01",
+          "imgPath": "/img/product-dryfruit@7.png",
+          "productid": "p4"
+        },
+        {
+          "title": "万紫千凤梨 300克",
+          "price": "￥0.01",
+          "imgPath": "/img/product-dryfruit@5.png",
+          "productid": "p5"
+        }
+      ],
+      "t2": [{
+          "title": "芹菜 半斤",
+          "price": "￥0.01",
+          "imgPath": "/img/product-vg@1.png",
+          "productid": "p6"
+        },
+        {
+          "title": "奇异果 500克",
+          "price": "￥0.01",
+          "imgPath": "/img/product-dryfruit@7.png",
+          "productid": "p7"
+        },
+        {
+          "title": "妙脆角 250克",
+          "price": "￥0.01",
+          "imgPath": "/img/product-cake@1.png",
+          "productid": "p8"
+        },
+        {
+          "title": "泥蒿 半斤",
+          "price": "￥0.01",
+          "imgPath": "/img/product-vg@2.png",
+          "productid": "p9"
+        },
+        {
+          "title": "春泥西瓜籽 120克",
+          "price": "￥0.01",
+          "imgPath": "/img/product-fry@2.png",
+          "productid": "p10"
+        }
+      ],
+      "t3": [{
+          "title": "猴头菇 300克",
+          "price": "￥0.01",
+          "imgPath": "/img/product-rice@4.png",
+          "productid": "p11"
+        },
+        {
+          "title": "春泥西瓜籽 120克",
+          "price": "￥0.01",
+          "imgPath": "/img/product-fry@2.png",
+          "productid": "p12"
+        },
+        {
+          "title": "碧水葵花籽 120克",
+          "price": "￥0.01",
+          "imgPath": "/img/product-fry@3.png",
+          "productid": "p13"
+        },
+        {
+          "title": "锈色瓜子 120克",
+          "price": "￥0.01",
+          "imgPath": "/img/product-fry@4.png",
+          "productid": "p14"
+        },
+        {
+          "title": "八宝莲子 200克",
+          "price": "￥0.01",
+          "imgPath": "/img/product-rice@6.png",
+          "productid": "p15"
+        },
+        {
+          "title": "深涧木耳 80克",
+          "price": "￥0.01",
+          "imgPath": "/img/product-rice@7.png",
+          "productid": "p16"
+        }
+      ]
+    },
+    "productid": {
+      "p1": {
+        "title": "梨花带雨 3个",
+        "price": "0.01",
+        "imgPath": "/img/product-dryfruit@1.png",
+        "id": "p1"
+      },
+      "p2": {
+        "title": "春生龙眼 500克",
+        "price": "0.01",
+        "imgPath": "/img/product-dryfruit@2.png",
+        "id": "p2"
+      },
+      "p3": {
+        "title": "夏日芒果 3个",
+        "price": "0.01",
+        "imgPath": "/img/product-dryfruit@3.png",
+        "id": "p3"
+      },
+      "p4": {
+        "title": "奇珍异果 3个",
+        "price": "0.01",
+        "imgPath": "/img/product-dryfruit@7.png",
+        "id": "p4"
+      },
+      "p5": {
+        "title": "万紫千凤梨 300克",
+        "price": "0.01",
+        "imgPath": "/img/product-dryfruit@5.png",
+        "id": "p5"
+      },
+      "p6": {
+        "title": "芹菜 半斤",
+        "price": "0.01",
+        "imgPath": "/img/product-vg@1.png",
+        "id": "p6"
+      },
+      "p7": {
+        "title": "奇异果 500克",
+        "price": "0.01",
+        "imgPath": "/img/product-dryfruit@7.png",
+        "id": "p7"
+      },
+      "p8": {
+        "title": "妙脆角 250克",
+        "price": "0.01",
+        "imgPath": "/img/product-cake@1.png",
+        "id": "p8"
+      },
+      "p9": {
+        "title": "泥蒿 半斤",
+        "price": "0.01",
+        "imgPath": "/img/product-vg@2.png",
+        "id": "p9"
+      },
+      "p10": {
+        "title": "春泥西瓜籽 120克",
+        "price": "0.01",
+        "imgPath": "/img/product-fry@2.png",
+        "id": "p10"
+      },
+      "p11": {
+        "title": "猴头菇 300克",
+        "price": "0.01",
+        "imgPath": "/img/product-rice@4.png",
+        "id": "p11"
+      },
+      "p12": {
+        "title": "春泥西瓜籽 120克",
+        "price": "0.01",
+        "imgPath": "/img/product-fry@2.png",
+        "id": "p12"
+      },
+      "p13": {
+        "title": "碧水葵花籽 120克",
+        "price": "0.01",
+        "imgPath": "/img/product-fry@3.png",
+        "id": "p13"
+      },
+      "p14": {
+        "title": "锈色瓜子 120克",
+        "price": "0.01",
+        "imgPath": "/img/product-fry@4.png",
+        "id": "p14"
+      },
+      "p15": {
+        "title": "八宝莲子 200克",
+        "price": "0.01",
+        "imgPath": "/img/product-rice@6.png",
+        "id": "p15"
+      },
+      "p16": {
+        "title": "深涧木耳 80克",
+        "price": "0.01",
+        "imgPath": "/img/product-rice@7.png",
+        "id": "p16"
+      },
+      "p17": {
+        "title": "贵妃杨梅 300克",
+        "price": "0.01",
+        "imgPath": "/img/product-dryfruit-a@6.png",
+        "id": "p17",
+        "detail": ["/img/detail-1@1-dryfruit.png", "/img/detail-2@1-dryfruit.png", "/img/detail-3@1-dryfruit.png", "/img/detail-4@1-dryfruit.png", "/img/detail-5@1-dryfruit.png", "/img/detail-6@1-dryfruit.png", "/img/detail-7@1-dryfruit.png", "/img/detail-8@1-dryfruit.png", "/img/detail-9@1-dryfruit.png", "/img/detail-10@1-dryfruit.png", "/img/detail-11@1-dryfruit.png", "/img/detail-12@1-dryfruit.png", "/img/detail-13@1-dryfruit.png"]
+      }
+    },
+    "categoryList": [{
+        "categoryId": "c1",
+        "name": "果味",
+        "topImg": "/img/category-dryfruit.png"
+      },
+      {
+        "categoryId": "c2",
+        "name": "蔬菜",
+        "topImg": "/img/category-vg.png"
+      },
+      {
+        "categoryId": "c3",
+        "name": "蔬菜",
+        "topImg": "/img/category-fry-a.png"
+      },
+      {
+        "categoryId": "c4",
+        "name": "蔬菜",
+        "topImg": "/img/category-cake.png"
+      },
+      {
+        "categoryId": "c5",
+        "name": "蔬菜",
+        "topImg": "/img/category-tea.png"
+      },
+      {
+        "categoryId": "c6",
+        "name": "蔬菜",
+        "topImg": "/img/category-rice.png"
+      }
+    ],
+    "categoryId": {
+      "c3": [{
+          "title": "梨花带雨 3个",
+          "price": "￥0.01",
+          "imgPath": "/img/product-dryfruit@1.png",
+          "productid": "p1"
+        },
+        {
+          "title": "猴头菇 300克",
+          "price": "￥0.01",
+          "imgPath": "/img/product-rice@4.png",
+          "productid": "p11"
+        },
+        {
+          "title": "八宝莲子 200克",
+          "price": "￥0.01",
+          "imgPath": "/img/product-rice@6.png",
+          "productid": "p15"
+        },
+        {
+          "title": "深涧木耳 80克",
+          "price": "￥0.01",
+          "imgPath": "/img/product-rice@7.png",
+          "productid": "p16"
+        },
+        {
+          "title": "芹菜 半斤",
+          "price": "￥0.01",
+          "imgPath": "/img/product-vg@1.png",
+          "productid": "p6"
+        },
+        {
+          "title": "奇珍异果 3个",
+          "price": "￥0.01",
+          "imgPath": "/img/product-dryfruit@7.png",
+          "productid": "p4"
+        },
+        {
+          "title": "锈色瓜子 120克",
+          "price": "￥0.01",
+          "imgPath": "/img/product-fry@4.png",
+          "productid": "p14"
+        },
+        {
+          "title": "妙脆角 250克",
+          "price": "￥0.01",
+          "imgPath": "/img/product-cake@1.png",
+          "productid": "p8"
+        },
+        {
+          "title": "泥蒿 半斤",
+          "price": "￥0.01",
+          "imgPath": "/img/product-vg@2.png",
+          "productid": "p9"
+        },
+        {
+          "title": "春泥西瓜籽 120克",
+          "price": "￥0.01",
+          "imgPath": "/img/product-fry@2.png",
+          "productid": "p10"
+        }
+      ],
+      "c1": [{
+          "title": "贵妃杨梅 300克",
+          "price": "￥0.01",
+          "imgPath": "/img/product-dryfruit-a@6.png",
+          "productid": "p17"
+        },
+        {
+          "title": "梨花带雨 3个",
+          "price": "￥0.01",
+          "imgPath": "/img/product-dryfruit@1.png",
+          "productid": "p1"
+        },
+        {
+          "title": "春生龙眼 500克",
+          "price": "￥0.01",
+          "imgPath": "/img/product-dryfruit@2.png",
+          "productid": "p2"
+        },
+        {
+          "title": "夏日芒果 3个",
+          "price": "￥0.01",
+          "imgPath": "/img/product-dryfruit@3.png",
+          "productid": "p3"
+        },
+        {
+          "title": "奇珍异果 3个",
+          "price": "￥0.01",
+          "imgPath": "/img/product-dryfruit@7.png",
+          "productid": "p4"
+        },
+        {
+          "title": "万紫千凤梨 300克",
+          "price": "￥0.01",
+          "imgPath": "/img/product-dryfruit@5.png",
+          "productid": "p5"
+        }
+      ],
+      "c2": [{
+          "title": "芹菜 半斤",
+          "price": "￥0.01",
+          "imgPath": "/img/product-vg@1.png",
+          "productid": "p6"
+        },
+        {
+          "title": "奇异果 500克",
+          "price": "￥0.01",
+          "imgPath": "/img/product-dryfruit@7.png",
+          "productid": "p7"
+        },
+        {
+          "title": "妙脆角 250克",
+          "price": "￥0.01",
+          "imgPath": "/img/product-cake@1.png",
+          "productid": "p8"
+        },
+        {
+          "title": "泥蒿 半斤",
+          "price": "￥0.01",
+          "imgPath": "/img/product-vg@2.png",
+          "productid": "p9"
+        },
+        {
+          "title": "春泥西瓜籽 120克",
+          "price": "￥0.01",
+          "imgPath": "/img/product-fry@2.png",
+          "productid": "p10"
+        }
+      ],
+      "c4": [{
+          "title": "猴头菇 300克",
+          "price": "￥0.01",
+          "imgPath": "/img/product-rice@4.png",
+          "productid": "p11"
+        },
+        {
+          "title": "春泥西瓜籽 120克",
+          "price": "￥0.01",
+          "imgPath": "/img/product-fry@2.png",
+          "productid": "p12"
+        },
+        {
+          "title": "碧水葵花籽 120克",
+          "price": "￥0.01",
+          "imgPath": "/img/product-fry@3.png",
+          "productid": "p13"
+        },
+        {
+          "title": "锈色瓜子 120克",
+          "price": "￥0.01",
+          "imgPath": "/img/product-fry@4.png",
+          "productid": "p14"
+        },
+        {
+          "title": "八宝莲子 200克",
+          "price": "￥0.01",
+          "imgPath": "/img/product-rice@6.png",
+          "productid": "p15"
+        },
+        {
+          "title": "深涧木耳 80克",
+          "price": "￥0.01",
+          "imgPath": "/img/product-rice@7.png",
+          "productid": "p16"
+        }
+      ],
+      "c5": [{
+          "title": "贵妃杨梅 300克",
+          "price": "￥0.01",
+          "imgPath": "/img/product-dryfruit-a@6.png",
+          "productid": "p17"
+        },
+        {
+          "title": "梨花带雨 3个",
+          "price": "￥0.01",
+          "imgPath": "/img/product-dryfruit@1.png",
+          "productid": "p1"
+        },
+        {
+          "title": "春生龙眼 500克",
+          "price": "￥0.01",
+          "imgPath": "/img/product-dryfruit@2.png",
+          "productid": "p2"
+        },
+        {
+          "title": "夏日芒果 3个",
+          "price": "￥0.01",
+          "imgPath": "/img/product-dryfruit@3.png",
+          "productid": "p3"
+        },
+        {
+          "title": "奇珍异果 3个",
+          "price": "￥0.01",
+          "imgPath": "/img/product-dryfruit@7.png",
+          "productid": "p4"
+        },
+        {
+          "title": "万紫千凤梨 300克",
+          "price": "￥0.01",
+          "imgPath": "/img/product-dryfruit@5.png",
+          "productid": "p5"
+        }
+      ],
+      "c6": [{
+          "title": "贵妃杨梅 300克",
+          "price": "￥0.01",
+          "imgPath": "/img/product-dryfruit-a@6.png",
+          "productid": "p17"
+        },
+        {
+          "title": "梨花带雨 3个",
+          "price": "￥0.01",
+          "imgPath": "/img/product-dryfruit@1.png",
+          "productid": "p1"
+        },
+        {
+          "title": "春生龙眼 500克",
+          "price": "￥0.01",
+          "imgPath": "/img/product-dryfruit@2.png",
+          "productid": "p2"
+        },
+        {
+          "title": "夏日芒果 3个",
+          "price": "￥0.01",
+          "imgPath": "/img/product-dryfruit@3.png",
+          "productid": "p3"
+        },
+        {
+          "title": "奇珍异果 3个",
+          "price": "￥0.01",
+          "imgPath": "/img/product-dryfruit@7.png",
+          "productid": "p4"
+        },
+        {
+          "title": "万紫千凤梨 300克",
+          "price": "￥0.01",
+          "imgPath": "/img/product-dryfruit@5.png",
+          "productid": "p5"
+        }
+      ]
+    }
+  }
+}

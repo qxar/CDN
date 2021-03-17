@@ -1,0 +1,38 @@
+/*重置样式*/
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img,input,figure,figcaption{margin:0;padding:0;}
+h1,h2,h3,h4,h5,h6{font-size:16px;font-weight: normal; }
+a,u,s{text-decoration: none;}
+ul,ol,li{list-style: none;}
+b,strong{font-weight: normal;}
+i,em{font-style: normal;}
+img{border:0;display:block;}
+input{outline:none;}
+.minfont{font-size: 0;-webkit-text-size-adjust:none;}
+.clearfix:after {
+    content: ".";         /*生成内容作为最后一个元素，至于content里面是什么没有影响*/
+    display: block;       /*使得生成的元素以块级元素显示，占满剩余空间*/
+    height: 0;            /*避免生成的内容破坏原有空间的高度*/
+    clear: both;          /*闭合浮动*/
+    visibility: hidden;   /*使得生成内容不可见，并允许可能生成内容盖住的内容进行点击和交互*/
+}
+.clearfix {zoom : 1;}     /*触发IE6/7的haslayout*/
+/*登陆面板*/
+.login_Wrap h1{float: left}
+.login_Wrap{width: 9.72rem;height: 4.9rem;margin: 0 auto;margin-top: 0.9rem;background: url("../images/login-bg.png") no-repeat 0 30px;position: relative;}
+.login_Wrap .store a{display: inline-block;width:1.24rem;height: 0.3rem;position: absolute;border-radius: 0.14rem}
+.login_Wrap .appStore{top: 2.4rem;left: 2.6rem;}
+.login_Wrap .android{left: 2.6rem;top: 2.86rem;}
+.login_Wrap .loginBord{width: 3.04rem;padding: 0.2rem;padding-top: 0;box-shadow: 0 0 4px rgba(0,0,0,.075);float: right;margin: 0.16rem 0.16rem 0 0 }
+.login_Wrap .loginBord h2{float:left;color: #f450a2;font-size: 0.19rem;vertical-align: middle;line-height: 0.19rem;padding-top: 0.21rem}
+.login_Wrap .loginBord p{float:right;color: #f450a2;font-size: 0.12rem;vertical-align: middle;padding-top: 0.22rem}
+.login_Wrap .loginBord a{color:#666666;}
+.login_Wrap .loginBord .h37{height: 0.37rem;display: block;width: 100%;box-shadow: 0 0 4px rgba(0,0,0,.475) inset;border: none;padding:0 0.1rem 0 0.4rem;box-sizing: border-box}
+.login_Wrap .user{margin-top: 0.34rem;background: url("../images/user.jpg") no-repeat 0.1rem center}
+.login_Wrap .password{margin-top: 0.17rem;background: url("../images/password.jpg") no-repeat 0.1rem center}
+.login_Wrap input[type=submit]{margin-top: 0.18rem;cursor: pointer;display: block;height: 0.41rem;outline: none;border: 0;width: 2.83rem;background-color: #f450a2;color: #fff;font-size: 0.18rem;}
+.login_Wrap .autoLogin{margin-top: 0.22rem;font-size: 0.12rem;line-height: 0.12rem}
+.login_Wrap .autoLogin a{float: right}
+.login_Wrap .autoLogin input{margin-right: 0.07rem}
+
+/*脚部信息*/
+.foot-info{text-align: center;padding: 0.3rem 0;line-height: 0.22rem;color:#cfcccf;font-size: 0.12rem}
