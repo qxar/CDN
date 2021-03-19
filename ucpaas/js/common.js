@@ -13,7 +13,22 @@ $(function () {            
     })
 
 // 返回顶部按钮
-$(function () {            
+$(function () {        
+    var bool=false;
+        $("#back-top").on("click",function () {
+            bool=true;
+            animation();
+
+        });
+        function animation() {
+            if(!bool)return;
+            requestAnimationFrame(animation);
+            if($(document).scrollTop()<=0){
+                bool=false;
+                return;
+            }
+            $(document).scrollTop($(document).scrollTop()-180);
+        }      
         //绑定滚动条事件
         $(window).bind("scroll", function () {
             var scrollTop = $(window).scrollTop();
